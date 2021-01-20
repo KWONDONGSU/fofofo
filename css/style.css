@@ -472,12 +472,12 @@ body {
 /*********************footer 끝****************************/
 /*********************footer 안 큐브****************************/
 .cube {
-  position: fixed; /*수정*/
-  top: 416px; /*수정*/
+  position: absolute;
+  bottom: 0;
   right: 79px;
   margin: 0 auto;
-  height: 140px; /*수정*/
-  width: 140px; /*수정*/
+  height: 140px;
+  width: 140px;
   z-index: 9999998;
   animation: spin 5s infinite linear;
   transform-style: preserve-3d;
