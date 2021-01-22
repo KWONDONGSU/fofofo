@@ -56,8 +56,9 @@ body {
 #header #nav .depth1 > li > a {
   display: block;
   line-height: 40px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 100;
+  font-family: "Nanum Pen Script", cursive;
 }
 #header #nav .depth1 > li:hover ul {
   display: block;
@@ -67,8 +68,8 @@ body {
   width: 100%;
   padding: 20px 0;
   position: absolute;
-  left: 0;
-  top: 50px;
+  left: 31px;
+  top: 34px;
   display: none;
   z-index: 99999;
 }
@@ -102,10 +103,11 @@ body {
   text-align: right;
 }
 .main_1_2_text {
-  font-size: 20px;
+  font-size: 33px;
   color: #ffffff;
   padding-top: 28px;
   text-align: right;
+  font-family: "Nanum Pen Script", cursive;
 }
 /*********************section1끝****************************/
 /*********************section2****************************/
@@ -117,14 +119,15 @@ body {
 .main_2_text {
   font-size: 27px;
   color: #000000;
-  padding-top: 126px;
+  padding-top: 94px;
   text-align: left;
 }
 .main_2_2_text {
-  font-size: 20px;
+  font-size: 33px;
   color: #000000;
   padding-top: 28px;
   text-align: left;
+  font-family: "Nanum Pen Script", cursive;
 }
 /*********************section2끝****************************/
 /*********************section3****************************/
@@ -136,14 +139,15 @@ body {
 .main_3_text {
   font-size: 27px;
   color: #ffffff;
-  padding-top: 126px;
+  padding-top: 94px;
   text-align: right;
 }
 .main_3_2_text {
-  font-size: 20px;
+  font-size: 33px;
   color: #ffffff;
   padding-top: 28px;
   text-align: right;
+  font-family: "Nanum Pen Script", cursive;
 }
 /*********************section3끝****************************/
 /*********************section4****************************/
@@ -155,14 +159,15 @@ body {
 .main_4_text {
   font-size: 27px;
   color: #000000;
-  padding-top: 126px;
+  padding-top: 81px;
   text-align: left;
 }
 .main_4_2_text {
-  font-size: 20px;
+  font-size: 33px;
   color: #000000;
   padding-top: 28px;
   text-align: left;
+  font-family: "Nanum Pen Script", cursive;
 }
 /*********************section4끝****************************/
 /*********************footer****************************/
@@ -247,12 +252,12 @@ body {
 /*********************footer 끝****************************/
 /*********************footer 안 큐브****************************/
 .cube {
-  position: fixed; /*수정*/
-  top: 672px; /*수정*/
-  right: 199px;
+  position: absolute;
+  bottom: 3rem;
+  right: 21.5rem;
   margin: 0 auto;
-  height: 40px; /*수정*/
-  width: 40px; /*수정*/
+  height: 40px;
+  width: 40px;
   z-index: 9999998;
   animation: spin 5s infinite linear;
   transform-style: preserve-3d;

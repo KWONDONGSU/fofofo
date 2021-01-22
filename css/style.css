@@ -176,10 +176,10 @@ body {
 }
 .half-line {
   position: absolute;
-  width: 30%;
+  width: 33%;
   height: 10px;
   top: 70px;
-  left: 800px;
+  left: 54rem;
   content: "";
   background-color: black;
 }
@@ -222,10 +222,10 @@ body {
 }
 .half-lin {
   position: absolute;
-  width: 30%;
+  width: 33%;
   height: 10px;
   top: 758px;
-  left: 800px;
+  left: 54rem;
   content: "";
   background-color: black;
 }
@@ -473,11 +473,11 @@ body {
 /*********************footer 안 큐브****************************/
 .cube {
   position: absolute;
-  bottom: 0;
-  right: 79px;
+  bottom: 4rem;
+  right: 21rem;
   margin: 0 auto;
-  height: 140px;
-  width: 140px;
+  height: 50px;
+  width: 50px;
   z-index: 9999998;
   animation: spin 5s infinite linear;
   transform-style: preserve-3d;
@@ -493,8 +493,8 @@ body {
 
 .cube > div {
   position: absolute;
-  height: 140px; /*수정*/
-  width: 140px; /*수정*/
+  height: 40px; /*수정*/
+  width: 40px; /*수정*/
   border: 1px solid #23b5af;
   opacity: 0.8;
 }
@@ -506,32 +506,32 @@ body {
 
 .one {
   text-align: center;
-  transform: rotateX(90deg) translateZ(70px); /*수정*/
+  transform: rotateX(90deg) translateZ(20px); /*수정*/
   background-color: #23b5af;
 }
 
 .two {
-  transform: translateZ(70px); /*수정*/
+  transform: translateZ(20px); /*수정*/
   background-color: #2ff1eb;
 }
 
 .three {
-  transform: rotateY(90deg) translateZ(70px); /*수정*/
+  transform: rotateY(90deg) translateZ(20px); /*수정*/
   background-color: #318582;
 }
 
 .four {
-  transform: rotateY(180deg) translateZ(70px); /*수정*/
+  transform: rotateY(180deg) translateZ(20px); /*수정*/
   background-color: #7df7f3;
 }
 
 .five {
-  transform: rotateY(-90deg) translateZ(70px); /*수정*/
+  transform: rotateY(-90deg) translateZ(20px); /*수정*/
   background-color: #004442;
 }
 
 .six {
-  transform: rotateX(-90deg) translateZ(70px); /*수정*/
+  transform: rotateX(-90deg) translateZ(20px); /*수정*/
   background-color: #639c9a;
 }
 
@@ -644,6 +644,8 @@ body {
   overflow: hidden;
   text-align: center;
   height: 800px;
+  position: relative;
+  left: 3rem;
 }
 
 .box_v {
