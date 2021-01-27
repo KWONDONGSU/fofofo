@@ -41,10 +41,10 @@ body {
 /* 퀵메뉴 */
 #quick {
   position: fixed;
-  top: 400px;
-  right: 70px;
-  width: 160px;
-  height: 160px;
+  top: 25rem;
+  right: 4.37rem;
+  width: 10rem;
+  height: 10rem;
   z-index: 9999999;
   animation: floting 1.5s infinite;
 }
@@ -67,12 +67,12 @@ body {
   position: relative;
 }
 .logo {
-  width: 200px;
+  width: 12.5rem;
   float: left;
 }
 #header .logo img {
   width: 100%;
-  height: 31px;
+  height: 1.93rem;
   margin-top: 25px;
 }
 #header .header_top {
@@ -95,9 +95,9 @@ body {
 }
 #header #nav .depth1 > li {
   float: left;
-  margin-left: 20px;
-  padding-left: 50px;
-  padding-bottom: 50px;
+  margin-left: 1.25rem;
+  padding-left: 3.12rem;
+  padding-bottom: 3.12rem;
   color: #000000;
 }
 #header #nav .depth1 > li > a {
@@ -167,6 +167,10 @@ body {
 .head_txt {
   font-size: 15px;
   padding-left: 10px;
+}
+.head_txt_xe {
+  font-size: 15px;
+  padding-left: 1px;
 }
 .what {
   font-size: 60px;
@@ -261,7 +265,8 @@ body {
   position: absolute;
   top: 50px;
   left: 27px;
-  font-size: 20px;
+  font-size: 1.5rem;
+  font-family: "Nanum Pen Script", cursive;
 }
 #section2 a .text_on {
   display: none; /*transition:0.5s; opacity:0*/
@@ -665,6 +670,183 @@ body {
   height: 840px;
 }
 /* 끝 */
+@media all and (max-width: 1024px) {
+  .popup {
+    display: none;
+  }
+  #header .logo img {
+    width: 100%;
+    height: 1.93rem;
+    margin-top: 25px;
+    margin-left: 1rem;
+  }
+  #header #nav {
+    position: relative;
+    float: right;
+    margin-top: 25px;
+    margin-right: 2rem;
+  }
+  .sec2 {
+    position: absolute;
+    width: 100%;
+    height: 2320px;
+    top: 52.3rem;
+    left: 0;
+    right: 0;
+    box-sizing: content-box;
+    transform: skewY(-28deg);
+    transform-origin: top center;
+    pointer-events: none;
+    background-color: #9fffff;
+    z-index: 9999;
+  }
+  .head_text {
+    margin-top: 30px;
+    margin-left: 4rem;
+    font-size: 40px;
+    color: black;
+  }
+  .head_txt_xe {
+    font-size: 15px;
+    padding-left: 4px;
+  }
+  .half-line {
+    position: absolute;
+    width: 42%;
+    height: 10px;
+    top: 70px;
+    left: 35rem;
+    content: "";
+    background-color: black;
+  }
+  .slick-slide img {
+    display: block;
+    margin: auto;
+    width: 75%;
+  }
+  .j_mn {
+    position: absolute;
+    left: 14.2rem;
+    bottom: 6rem;
+    width: 27%;
+  }
+  .hed_text {
+    margin-left: 4rem;
+  }
+  .half-lin {
+    position: absolute;
+    width: 42.5%;
+    height: 10px;
+    top: 42.5rem;
+    left: 34.6rem;
+    content: "";
+    background-color: black;
+  }
+  #section2 {
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+  }
+  .notice {
+    width: 80%;
+    float: left;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #000000;
+    margin-left: 4rem;
+  }
+  .half-li {
+    position: absolute;
+    width: 27.8rem;
+    height: 10px;
+    top: 104.8rem;
+    left: 33.8rem;
+    content: "";
+    background-color: black;
+  }
+  .foot_boxx {
+    float: left;
+    width: 48%;
+    height: 30px;
+    padding-top: 15px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 49px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  .hea_txt {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-left: 3px;
+  }
+  .had_txt {
+    font-size: 1.5rem;
+    margin-left: 3px;
+    margin-top: 0.5rem;
+  }
+  .video video {
+    width: 24.5rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+  }
+  #quick {
+    position: fixed;
+    top: 25rem;
+    left: 56rem;
+    width: 10rem;
+    height: 10rem;
+    z-index: 9999999;
+    animation: floting 1.5s infinite;
+  }
+  #quick img {
+    width: 75%;
+  }
+  .cube {
+    position: absolute;
+    bottom: 2rem;
+    right: 3rem;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    z-index: 9999998;
+    animation: spin 5s infinite linear;
+    transform-style: preserve-3d;
+  }
+  .ft_text1 {
+    float: left;
+    width: 41%;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #fff;
+  }
+  .ft_text2 {
+    float: left;
+    width: 16%;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #fff;
+  }
+  .ft_text3 {
+    width: 23%;
+    float: left;
+    font-size: 15px;
+    color: #fff;
+  }
+  .ft_textbox p {
+    padding-bottom: 1rem;
+  }
+  .ft_sns {
+    float: right;
+    width: 31px;
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+    right: 0.2rem;
+    bottom: 0.5rem;
+  }
+}
 @media all and (max-width: 980px) {
   body {
     background-color: #ffbfcc;
