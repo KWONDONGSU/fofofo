@@ -371,13 +371,9 @@ body {
   background-color: hotpink;
 }
 .video video {
-  width: 400px;
+  width: 25.5rem;
   margin-top: 30px;
   margin-left: 25px;
-  /* position: absolute;
-  left: 343px;
-  top: 3000px;
-  z-index: 9999;*/
 }
 .video_x {
   width: 100%;
@@ -675,53 +671,33 @@ body {
     display: none;
   }
   #header .logo img {
-    width: 100%;
     height: 1.93rem;
-    margin-top: 25px;
     margin-left: 1rem;
   }
   #header #nav {
-    position: relative;
-    float: right;
-    margin-top: 25px;
     margin-right: 2rem;
   }
   .sec2 {
     position: absolute;
-    width: 100%;
-    height: 2320px;
     top: 52.3rem;
-    left: 0;
-    right: 0;
-    box-sizing: content-box;
-    transform: skewY(-28deg);
-    transform-origin: top center;
-    pointer-events: none;
-    background-color: #9fffff;
-    z-index: 9999;
   }
   .head_text {
-    margin-top: 30px;
     margin-left: 4rem;
-    font-size: 40px;
-    color: black;
+  }
+  .head_txt {
+    font-size: 1.5rem;
+    padding-left: 10px;
   }
   .head_txt_xe {
-    font-size: 15px;
+    font-size: 1.5rem;
     padding-left: 4px;
   }
   .half-line {
     position: absolute;
     width: 42%;
-    height: 10px;
-    top: 70px;
     left: 35rem;
-    content: "";
-    background-color: black;
   }
   .slick-slide img {
-    display: block;
-    margin: auto;
     width: 75%;
   }
   .j_mn {
@@ -736,11 +712,9 @@ body {
   .half-lin {
     position: absolute;
     width: 42.5%;
-    height: 10px;
     top: 42.5rem;
     left: 34.6rem;
     content: "";
-    background-color: black;
   }
   #section2 {
     position: relative;
@@ -749,41 +723,25 @@ body {
   }
   .notice {
     width: 80%;
-    float: left;
-    margin-top: 30px;
-    font-size: 40px;
-    color: #000000;
     margin-left: 4rem;
   }
   .half-li {
     position: absolute;
     width: 27.8rem;
-    height: 10px;
     top: 104.8rem;
     left: 33.8rem;
     content: "";
-    background-color: black;
   }
   .foot_boxx {
     float: left;
     width: 48%;
-    height: 30px;
-    padding-top: 15px;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 49px;
-    margin-right: 10px;
-    background-color: #ffffff;
     cursor: pointer;
   }
   .hea_txt {
     font-size: 1.5rem;
-    margin-top: 5px;
-    margin-left: 3px;
   }
   .had_txt {
     font-size: 1.5rem;
-    margin-left: 3px;
     margin-top: 0.5rem;
   }
   .video video {
@@ -815,18 +773,10 @@ body {
     transform-style: preserve-3d;
   }
   .ft_text1 {
-    float: left;
     width: 41%;
-    margin-left: 10px;
-    font-size: 15px;
-    color: #fff;
   }
   .ft_text2 {
-    float: left;
     width: 16%;
-    margin-left: 10px;
-    font-size: 15px;
-    color: #fff;
   }
   .ft_text3 {
     width: 23%;
